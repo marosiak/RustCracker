@@ -78,7 +78,7 @@ void saveProgress(int curret){
 
 void menu(){
     cout << "Hello, select what do you want \n"
-            "a. Continue curret hacking\n"
+            "a. Continue current hacking\n"
             "b. Start new hacking\n";
     bool switcher=true;
     while(switcher == true){
