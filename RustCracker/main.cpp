@@ -55,8 +55,8 @@ void type(char x){
 }
 
 void enterCode(int index){
-    type(getCode(index)[0]); type(getCode(index)[1]);
-    type(getCode(index)[2]); type(getCode(index)[3]);
+    type(getCode(index)[0]); Sleep(50); type(getCode(index)[1]); Sleep(50);
+    type(getCode(index)[2]); Sleep(50); type(getCode(index)[3]);
 }
 
 bool reloader = true;
