@@ -21,8 +21,8 @@ void createCodes(){
             file << "\n";
         }
         else std::cout << "Dostep do pliku zostal zabroniony!" << std::endl;
-        file.close();
     }
+    file.close();
 }
 
 std::string getCode(int linenumber){
@@ -79,7 +79,7 @@ void saveProgress(int curret){
 void menu(){
     cout << "Hello, select what do you want \n"
             "a. Continue current hacking\n"
-            "b. Start new hacking\n";
+            "b. Start new cracking\n";
     bool switcher=true;
     while(switcher == true){
         if(getch() == 97){
